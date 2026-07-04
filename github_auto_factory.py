@@ -189,9 +189,9 @@ def push_to_github():
     try:
         subprocess.run(["git", "add", "."], cwd=REPO_DIR, check=True)
         subprocess.run(["git", "commit", "-m", f"Auto post: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"], cwd=REPO_DIR, check=True)
-        # GitHub Remote 가 세팅되어 있다는 가정 하에 푸시합니다.
-        # subprocess.run(["git", "push", "origin", "main"], cwd=REPO_DIR, check=True)
-        print("🎉 로컬 Git Commit 완벽하게 성공! (GitHub 연결 후 Push 하면 전 세계 배포 완료)")
+        # GitHub Remote 가 세팅되어 있으므로 푸시합니다.
+        subprocess.run(["git", "push", "origin", "main"], cwd=REPO_DIR, check=True)
+        print("🎉 로컬 Git Commit 및 GitHub 자동 Push 완벽하게 성공! 전 세계 배포 완료!")
     except Exception as e:
         print(f"❌ Git 커밋 실패: {e}")
 
