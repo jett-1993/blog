@@ -196,3 +196,33 @@ body {
 .footer-col-wrapper {
   color: #718096;
 }
+
+/* Mobile Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .home-hero {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+  }
+  
+  .home-hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .post-header {
+    margin-bottom: 30px;
+  }
+  
+  .post-title {
+    font-size: 2rem;
+  }
+  
+  .post-content {
+    padding: 25px 20px; /* Reduced from 60px for mobile */
+    border-radius: 16px;
+    font-size: 1.05rem; /* Slightly smaller text for mobile */
+  }
+  
+  .post-grid {
+    gap: 20px;
+  }
+}
