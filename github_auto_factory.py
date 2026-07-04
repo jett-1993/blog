@@ -154,7 +154,7 @@ def create_jekyll_post(title, content, meta_description, image_path):
     print("🚀 [5단계] Jekyll 형식의 마크다운(.md) 파일을 생성 중입니다...")
     now = datetime.datetime.now()
     date_str = now.strftime("%Y-%m-%d")
-    time_str = now.strftime("%Y-%m-%d %H:%M:%S %z")
+    time_str = now.strftime("%Y-%m-%d %H:%M:%S") + " +0900"
     
     # 영문 소문자와 하이픈만으로 slug 생성 (한글 제목 방지)
     import uuid

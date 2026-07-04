@@ -6,6 +6,8 @@ description: >-
 url: "https://wonjun-kim-jett.github.io"
 baseurl: "/blog"
 theme: minima
+timezone: Asia/Seoul
+future: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
