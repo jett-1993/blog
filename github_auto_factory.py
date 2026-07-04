@@ -54,7 +54,7 @@ def call_gemini_with_retry(prompt, is_json=False):
         try:
             config = types.GenerateContentConfig(response_mime_type="application/json") if is_json else None
             response = client.models.generate_content(
-                model='gemini-2.0-flash',
+                model='gemini-2.5-flash',
                 contents=prompt,
                 config=config
             )
