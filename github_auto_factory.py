@@ -7,7 +7,10 @@ from google import genai
 import datetime
 import subprocess
 from dotenv import load_dotenv
-
+import schedule
+import time
+import sys
+from telegram_notifier import send_telegram_message
 # ==========================================
 # ⚙️ 설정 (Configuration)
 # ==========================================
@@ -154,7 +157,7 @@ def generate_seo_content(predictive_keyword, angle_strategy, language="Korean"):
 def generate_and_download_image(image_prompt, filename="thumbnail.jpg"):
     print(f"🎨 [4단계] 썸네일 이미지를 생성 및 다운로드하고 있습니다... (프롬프트: {image_prompt})")
     encoded_prompt = urllib.parse.quote(image_prompt)
-    image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=1200&height=630&nologo=true"
+    image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=1024&height=1024&nologo=true"
     
     filepath = os.path.join(IMAGES_DIR, filename)
     response = requests.get(image_url)
@@ -321,6 +324,8 @@ def run_autonomous_factory():
     print("==========================================================")
     print("데이터베이스도 서버도 필요 없습니다. 파일 하나면 전 세계와 연결됩니다.\n")
     
+    send_telegram_message("🤖 <b>Jett's Insight 팩토리 가동 시작</b>\n전문가 집단이 새로운 트렌드 분석을 시작합니다. (작성/검증 약 3~5분 소요)")
+    
     language = "Korean"
         
     try:
@@ -354,9 +359,39 @@ def run_autonomous_factory():
         
         # 6. GitHub 자동 푸시
         push_to_github()
+        
+        # 발행 완료 후 텔레그램 알림 전송 (URL 포함)
+        import re
+        seo_slug = re.sub(r'[^가-힣a-zA-Z0-9-]', '', editor_decision['predictive_keyword'].replace(' ', '-'))
+        seo_slug = re.sub(r'-+', '-', seo_slug).strip('-')
+        post_url = f"https://jett-1993.github.io/blog/trend/{seo_slug}/"
+        send_telegram_message(f"🎉 <b>포스팅 완료!</b>\n\n새로운 분석 글이 발행되었습니다.\n🔗 {post_url}")
             
     except Exception as e:
         print(f"\n❌ 파이프라인 에러 발생: {e}")
+        send_telegram_message(f"❌ <b>팩토리 에러 발생</b>\n파이프라인 실행 중 에러가 발생했습니다: {e}")
+
+def job():
+    run_autonomous_factory()
 
 if __name__ == "__main__":
-    run_autonomous_factory()
+    if len(sys.argv) > 1 and sys.argv[1] == "run":
+        run_autonomous_factory()
+    else:
+        print("🕒 스케줄러 모드로 가동합니다. (매일 08:00, 19:00 자동 실행 및 매시간 QA 봇 가동)")
+        send_telegram_message("🕒 <b>Jett's Insight 스케줄러 가동</b>\n매일 오전 8시, 오후 7시에 자동 포스팅을 진행합니다.\n(매시간 SEO 무결성 모니터링 가동 중)")
+        
+        # 글 작성 스케줄
+        schedule.every().day.at("08:00").do(job)
+        schedule.every().day.at("19:00").do(job)
+        
+        # 매시간 QA 봇 가동
+        try:
+            from blog_qa_bot import run_qa
+            schedule.every().hour.do(run_qa)
+        except ImportError:
+            pass
+        
+        while True:
+            schedule.run_pending()
+            time.sleep(60)

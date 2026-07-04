@@ -184,6 +184,9 @@ body {
   box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   margin: 30px 0;
   width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .site-footer {
