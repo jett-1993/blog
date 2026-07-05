@@ -87,90 +87,91 @@
 [2026-07-05 16:34:44] 🔍 Jett's Insight 블로그 SEO QA 시작
 [2026-07-05 16:34:44] =========================================
 [2026-07-05 16:34:44] ✅ [SITEMAP] sitemap.xml 정상 접근 확인
-[2026-07-05 15:58:11] ✅ [SITEMAP] 최신 포스트 발견: https://jett-1993.github.io/blog/trend/%EC%B4%88%EC%A7%80%EB%8A%A5-AI-%ED%95%B4%ED%82%B9-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%9C%EA%B0%80-%EC%B1%97GPT%EA%B0%80-%EB%8D%98%EC%A7%84-%EC%98%88%EC%B8%A1%EB%B6%88%ED%97%88-%EC%82%AC%EC%9D%B4%EB%B2%84-%EC%A0%84%EC%9F%81-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4/
-[2026-07-05 15:58:11] ✅ [SEO_TITLE] 타이틀 존재: 초지능 AI 해킹 시대: 당신의 데이터, 과연 안전한가? 예측불허 사이버 전쟁의 현실적 위협과 생존 전략 | Jett’s Insight
-[2026-07-05 15:58:11] ✅ [SEO_META] Meta Description 존재
-[2026-07-05 15:58:11] ✅ [SEO_MOBILE] Viewport 설정 확인 (모바일 친화적)
-[2026-07-05 15:58:11] ✅ [SEO_CONTENT] 본문 길이 양호 (4499자)
-[2026-07-05 15:58:11] ✅ [SEO_HEADING] H2 태그 6개 확인
-[2026-07-05 15:58:11] ✅ [SEO_IMAGE] 모든 이미지에 ALT 태그 적용 완료
-[2026-07-05 15:58:11] ✅ QA 검사 완료
+[main 02ae94f] Auto post: 2026-07-05 19:05:11
+ 3 files changed, 77 insertions(+), 8 deletions(-)
+ create mode 100644 _posts/2026-07-05-trend-forecast-c36eda85.md
+ create mode 100644 assets/images/thumbnail_203adf60.jpg
+To https://github.com/jett-1993/blog.git
+   0f5a138..02ae94f  main -> main
+[2026-07-05 16:21:10] ✅ [SITEMAP] 최신 포스트 발견: https://jett-1993.github.io/blog/trend/%EC%B4%88%EC%A7%80%EB%8A%A5-AI-%ED%95%B4%ED%82%B9-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%9C%EA%B0%80-%EC%B1%97GPT%EA%B0%80-%EB%8D%98%EC%A7%84-%EC%98%88%EC%B8%A1%EB%B6%88%ED%97%88-%EC%82%AC%EC%9D%B4%EB%B2%84-%EC%A0%84%EC%9F%81-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4/
+[2026-07-05 16:21:10] ✅ [SEO_TITLE] 타이틀 존재: 초지능 AI 해킹 시대: 당신의 데이터, 과연 안전한가? 예측불허 사이버 전쟁의 현실적 위협과 생존 전략 | Jett’s Insight
+[2026-07-05 16:21:10] ✅ [SEO_META] Meta Description 존재
+[2026-07-05 16:21:10] ✅ [SEO_MOBILE] Viewport 설정 확인 (모바일 친화적)
+[2026-07-05 16:21:10] ✅ [SEO_CONTENT] 본문 길이 양호 (4499자)
+[2026-07-05 16:21:10] ✅ [SEO_HEADING] H2 태그 6개 확인
+[2026-07-05 16:21:10] ✅ [SEO_IMAGE] 모든 이미지에 ALT 태그 적용 완료
+[2026-07-05 16:21:10] ✅ QA 검사 완료
 =========================================
 🛠️ Jett's Insight 자가 치유(Fix) 봇 가동
 =========================================
 ✅ 모든 SEO 항목이 완벽합니다. 수정할 필요가 없습니다.
-[2026-07-05 16:58:14] =========================================
-[2026-07-05 16:58:14] 🔍 Jett's Insight 블로그 SEO QA 시작
-[2026-07-05 16:58:14] =========================================
-[2026-07-05 16:58:14] ✅ [SITEMAP] sitemap.xml 정상 접근 확인
-[2026-07-05 16:58:14] ✅ [SITEMAP] 최신 포스트 발견: https://jett-1993.github.io/blog/trend/%EC%B4%88%EC%A7%80%EB%8A%A5-AI-%ED%95%B4%ED%82%B9-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%9C%EA%B0%80-%EC%B1%97GPT%EA%B0%80-%EB%8D%98%EC%A7%84-%EC%98%88%EC%B8%A1%EB%B6%88%ED%97%88-%EC%82%AC%EC%9D%B4%EB%B2%84-%EC%A0%84%EC%9F%81-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4/
-[2026-07-05 16:58:14] ✅ [SEO_TITLE] 타이틀 존재: 초지능 AI 해킹 시대: 당신의 데이터, 과연 안전한가? 예측불허 사이버 전쟁의 현실적 위협과 생존 전략 | Jett’s Insight
-[2026-07-05 16:58:14] ✅ [SEO_META] Meta Description 존재
-[2026-07-05 16:58:14] ✅ [SEO_MOBILE] Viewport 설정 확인 (모바일 친화적)
-[2026-07-05 16:58:14] ✅ [SEO_CONTENT] 본문 길이 양호 (4499자)
-[2026-07-05 16:58:14] ✅ [SEO_HEADING] H2 태그 6개 확인
-[2026-07-05 16:58:14] ✅ [SEO_IMAGE] 모든 이미지에 ALT 태그 적용 완료
-[2026-07-05 16:58:14] ✅ QA 검사 완료
+[2026-07-05 17:21:13] =========================================
+[2026-07-05 17:21:13] 🔍 Jett's Insight 블로그 SEO QA 시작
+[2026-07-05 17:21:13] =========================================
+[2026-07-05 17:21:13] ✅ [SITEMAP] sitemap.xml 정상 접근 확인
+[2026-07-05 17:21:13] ✅ [SITEMAP] 최신 포스트 발견: https://jett-1993.github.io/blog/trend/%EC%B4%88%EC%A7%80%EB%8A%A5-AI-%ED%95%B4%ED%82%B9-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%9C%EA%B0%80-%EC%B1%97GPT%EA%B0%80-%EB%8D%98%EC%A7%84-%EC%98%88%EC%B8%A1%EB%B6%88%ED%97%88-%EC%82%AC%EC%9D%B4%EB%B2%84-%EC%A0%84%EC%9F%81-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4/
+[2026-07-05 17:21:13] ✅ [SEO_TITLE] 타이틀 존재: 초지능 AI 해킹 시대: 당신의 데이터, 과연 안전한가? 예측불허 사이버 전쟁의 현실적 위협과 생존 전략 | Jett’s Insight
+[2026-07-05 17:21:13] ✅ [SEO_META] Meta Description 존재
+[2026-07-05 17:21:13] ✅ [SEO_MOBILE] Viewport 설정 확인 (모바일 친화적)
+[2026-07-05 17:21:13] ✅ [SEO_CONTENT] 본문 길이 양호 (4499자)
+[2026-07-05 17:21:13] ✅ [SEO_HEADING] H2 태그 6개 확인
+[2026-07-05 17:21:13] ✅ [SEO_IMAGE] 모든 이미지에 ALT 태그 적용 완료
+[2026-07-05 17:21:13] ✅ QA 검사 완료
 =========================================
 🛠️ Jett's Insight 자가 치유(Fix) 봇 가동
 =========================================
 ✅ 모든 SEO 항목이 완벽합니다. 수정할 필요가 없습니다.
-[2026-07-05 17:58:15] =========================================
-[2026-07-05 17:58:15] 🔍 Jett's Insight 블로그 SEO QA 시작
-[2026-07-05 17:58:15] =========================================
-[2026-07-05 17:58:15] ✅ [SITEMAP] sitemap.xml 정상 접근 확인
-[2026-07-05 17:58:15] ✅ [SITEMAP] 최신 포스트 발견: https://jett-1993.github.io/blog/trend/%EC%B4%88%EC%A7%80%EB%8A%A5-AI-%ED%95%B4%ED%82%B9-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%9C%EA%B0%80-%EC%B1%97GPT%EA%B0%80-%EB%8D%98%EC%A7%84-%EC%98%88%EC%B8%A1%EB%B6%88%ED%97%88-%EC%82%AC%EC%9D%B4%EB%B2%84-%EC%A0%84%EC%9F%81-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4/
-[2026-07-05 17:58:15] ✅ [SEO_TITLE] 타이틀 존재: 초지능 AI 해킹 시대: 당신의 데이터, 과연 안전한가? 예측불허 사이버 전쟁의 현실적 위협과 생존 전략 | Jett’s Insight
-[2026-07-05 17:58:15] ✅ [SEO_META] Meta Description 존재
-[2026-07-05 17:58:15] ✅ [SEO_MOBILE] Viewport 설정 확인 (모바일 친화적)
-[2026-07-05 17:58:15] ✅ [SEO_CONTENT] 본문 길이 양호 (4499자)
-[2026-07-05 17:58:15] ✅ [SEO_HEADING] H2 태그 6개 확인
-[2026-07-05 17:58:15] ✅ [SEO_IMAGE] 모든 이미지에 ALT 태그 적용 완료
-[2026-07-05 17:58:15] ✅ QA 검사 완료
+[2026-07-05 18:21:13] =========================================
+[2026-07-05 18:21:13] 🔍 Jett's Insight 블로그 SEO QA 시작
+[2026-07-05 18:21:13] =========================================
+[2026-07-05 18:21:13] ✅ [SITEMAP] sitemap.xml 정상 접근 확인
+[2026-07-05 18:21:13] ✅ [SITEMAP] 최신 포스트 발견: https://jett-1993.github.io/blog/trend/%EC%B4%88%EC%A7%80%EB%8A%A5-AI-%ED%95%B4%ED%82%B9-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%9C%EA%B0%80-%EC%B1%97GPT%EA%B0%80-%EB%8D%98%EC%A7%84-%EC%98%88%EC%B8%A1%EB%B6%88%ED%97%88-%EC%82%AC%EC%9D%B4%EB%B2%84-%EC%A0%84%EC%9F%81-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4/
+[2026-07-05 18:21:13] ✅ [SEO_TITLE] 타이틀 존재: 초지능 AI 해킹 시대: 당신의 데이터, 과연 안전한가? 예측불허 사이버 전쟁의 현실적 위협과 생존 전략 | Jett’s Insight
+[2026-07-05 18:21:13] ✅ [SEO_META] Meta Description 존재
+[2026-07-05 18:21:13] ✅ [SEO_MOBILE] Viewport 설정 확인 (모바일 친화적)
+[2026-07-05 18:21:13] ✅ [SEO_CONTENT] 본문 길이 양호 (4499자)
+[2026-07-05 18:21:13] ✅ [SEO_HEADING] H2 태그 6개 확인
+[2026-07-05 18:21:13] ✅ [SEO_IMAGE] 모든 이미지에 ALT 태그 적용 완료
+[2026-07-05 18:21:13] ✅ QA 검사 완료
 =========================================
 🛠️ Jett's Insight 자가 치유(Fix) 봇 가동
 =========================================
 ✅ 모든 SEO 항목이 완벽합니다. 수정할 필요가 없습니다.
-[2026-07-05 18:58:16] =========================================
-[2026-07-05 18:58:16] 🔍 Jett's Insight 블로그 SEO QA 시작
-[2026-07-05 18:58:16] =========================================
-[2026-07-05 18:58:16] ✅ [SITEMAP] sitemap.xml 정상 접근 확인
-[2026-07-05 18:58:16] ✅ [SITEMAP] 최신 포스트 발견: https://jett-1993.github.io/blog/trend/%EC%B4%88%EC%A7%80%EB%8A%A5-AI-%ED%95%B4%ED%82%B9-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%9C%EA%B0%80-%EC%B1%97GPT%EA%B0%80-%EB%8D%98%EC%A7%84-%EC%98%88%EC%B8%A1%EB%B6%88%ED%97%88-%EC%82%AC%EC%9D%B4%EB%B2%84-%EC%A0%84%EC%9F%81-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4/
-[2026-07-05 18:58:16] ✅ [SEO_TITLE] 타이틀 존재: 초지능 AI 해킹 시대: 당신의 데이터, 과연 안전한가? 예측불허 사이버 전쟁의 현실적 위협과 생존 전략 | Jett’s Insight
-[2026-07-05 18:58:16] ✅ [SEO_META] Meta Description 존재
-[2026-07-05 18:58:16] ✅ [SEO_MOBILE] Viewport 설정 확인 (모바일 친화적)
-[2026-07-05 18:58:16] ✅ [SEO_CONTENT] 본문 길이 양호 (4499자)
-[2026-07-05 18:58:16] ✅ [SEO_HEADING] H2 태그 6개 확인
-[2026-07-05 18:58:16] ✅ [SEO_IMAGE] 모든 이미지에 ALT 태그 적용 완료
-[2026-07-05 18:58:16] ✅ QA 검사 완료
-=========================================
-🛠️ Jett's Insight 자가 치유(Fix) 봇 가동
-=========================================
-✅ 모든 SEO 항목이 완벽합니다. 수정할 필요가 없습니다.
+🕵️‍♂️ 봇(Bot) 탐지 회피를 위해 2분 대기 후 포스팅을 시작합니다...
 ==========================================================
  🔥 GitHub Pages V3.0 실시간 트렌드 예측 봇 (완전 자율주행) 🔥
 ==========================================================
 데이터베이스도 서버도 필요 없습니다. 파일 하나면 전 세계와 연결됩니다.
 
-📡 [1단계] Korean 구글 뉴스 실시간 핫이슈를 스크래핑 중입니다...
+📡 [1단계] Korean 구글 뉴스 'IT 및 보안' 핫이슈를 스크래핑 중입니다...
 ✅ 20개의 핫이슈를 수집 완료했습니다.
 🧠 [2단계] AI 편집장이 돈이 될 만한 뉴스를 선별하고 예측 각도를 잡고 있습니다...
 
 💡 [편집장 분석 결과]
- - 채택된 원본 뉴스: 트럼프, 취임 후 쿠팡 주식 수차례 거래…이해충돌 논란 관건 - 연합인포맥스
- - 도출된 예측 키워드: 트럼프의 쿠팡 주식 미스터리: 그가 얻으려던 건 단순 투자 수익이 아니었다?
- - 앵글(셀링 포인트): 세계적 논란의 정치인 트럼프와 한국계 기업 쿠팡의 연결고리, 그리고 대통령직 이해충돌이라는 강력한 의혹을 통해 그의 '숨겨진 의도'와 '미래 정치적 파장'에 대한 대중의 폭발적인 호기심을 자극한다.
+ - 채택된 원본 뉴스: [신년전망/보안②] “끝나지 않은 위협”…고개 드는 AI 기반 사이버 공격 - 아이티데일리
+ - 도출된 예측 키워드: AI 보안 전쟁: 공격 vs 방어, 기업 생존의 핵심 전략
+ - 앵글(셀링 포인트): AI 기반 사이버 공격이라는 미래 위협을 제시하고, 이에 맞서는 기업들의 방어 및 생존 전략을 다뤄 독자들에게 위기 의식과 동시에 실질적인 해결책에 대한 기대를 심어 클릭을 유도합니다.
 
-🤖 [3단계] Gemini가 예측 앵글('트럼프의 쿠팡 주식 미스터리: 그가 얻으려던 건 단순 투자 수익이 아니었다?')을 바탕으로 SEO 마크다운 글을 작성 중입니다...
+🤖 [3단계] Gemini가 예측 앵글('AI 보안 전쟁: 공격 vs 방어, 기업 생존의 핵심 전략')을 바탕으로 SEO 마크다운 글을 작성 중입니다...
 👨‍⚖️ [전문가 집단 검증] IT/경제/사회, SEO/애드센스, 그래픽 디자이너가 콘텐츠를 심사합니다...
 ✅ [전문가 집단 검증 완료] 글의 퀄리티가 대폭 상승했습니다.
-🎨 [4단계] 썸네일 이미지를 생성 및 다운로드하고 있습니다... (프롬프트: A highly stylized and realistic image depicting Donald Trump with a thoughtful, analytical expression, gazing at a complex, futuristic digital stock chart. The chart data subtly incorporates abstract elements reminiscent of the Coupang logo. The background features a shadowy, blurred montage of global political landscapes and an emphasis on East Asia, evoking a sense of geopolitical strategy and mystery. The color palette should lean towards dark blues, grays, and subtle gold accents, enhancing the 'intrigue' and 'analytical' mood. Aspect ratio: 16:9 wide. Quality: High-resolution, cinematic. Crucially, no visible text or brand logos.)
-[main 0f5a138] Auto post: 2026-07-05 19:03:17
- 7 files changed, 882 insertions(+), 62 deletions(-)
- create mode 100644 _posts/2026-07-05-trend-forecast-93fa88d2.md
- delete mode 100644 _posts/2026-07-05-trend-forecast-ac2d7d41.md
- create mode 100644 assets/images/thumbnail_6fa93b38.jpg
- delete mode 100644 assets/images/thumbnail_8a925373.jpg
+🎨 [4단계] 썸네일 이미지를 생성 및 다운로드하고 있습니다... (프롬프트: High-quality, hyper-realistic, vivid, cinematic abstract visualization of an intense AI cyber warfare. Glowing red attacking algorithms and intricate neural network patterns clash dynamically with resilient blue defensive AI networks. The scene symbolizes the fierce battle between advanced cyber threats and robust corporate protection. Faintly visible in the background, a stylized, futuristic corporate data center or skyscraper represents the target and stakes involved. The composition is in a 16:9 wide aspect ratio, with no text or logos, focusing purely on visual impact and thematic representation.)
+✅ 이미지 다운로드 완료: /Users/gim-wonjun/Desktop/jett.github.io/assets/images/thumbnail_203adf60.jpg
+🚀 [5단계] Jekyll 형식의 마크다운(.md) 파일을 생성 중입니다...
+✅ 마크다운 파일 생성 완료: /Users/gim-wonjun/Desktop/jett.github.io/_posts/2026-07-05-trend-forecast-c36eda85.md
+💻 [기술 검증 위원회] QA, SA, NA, TA, DA, AA, 파이썬 수석 개발자가 마크다운과 코드를 최종 검증합니다...
+✅ [기술 검증 완료] 모든 마크다운 및 코드 오류가 수정되었습니다.
+☁️ [6단계] 생성된 콘텐츠를 GitHub로 자동 배포(Push) 합니다...
+🎉 로컬 Git Commit 및 GitHub 자동 Push 완벽하게 성공! 전 세계 배포 완료!
+[2026-07-05 19:21:15] =========================================
+[2026-07-05 19:21:15] 🔍 Jett's Insight 블로그 SEO QA 시작
+[2026-07-05 19:21:15] =========================================
+[2026-07-05 19:21:15] ✅ [SITEMAP] sitemap.xml 정상 접근 확인
+[2026-07-05 19:21:15] ✅ [SITEMAP] 최신 포스트 발견: https://jett-1993.github.io/blog/trend/AI-%EB%B3%B4%EC%95%88-%EC%A0%84%EC%9F%81-%EA%B3%B5%EA%B2%A9-vs-%EB%B0%A9%EC%96%B4-%EA%B8%B0%EC%97%85-%EC%83%9D%EC%A1%B4%EC%9D%98-%ED%95%B5%EC%8B%AC-%EC%A0%84%EB%9E%B5/
+[2026-07-05 19:21:15] ✅ [SEO_TITLE] 타이틀 존재: AI 보안 위협: 기업 생존을 위한 최강의 방어 전략 | Jett’s Insight
+[2026-07-05 19:21:15] ✅ [SEO_META] Meta Description 존재
+[2026-07-05 19:21:15] ✅ [SEO_MOBILE] Viewport 설정 확인 (모바일 친화적)
+4 assets/images/thumbnail_8a925373.jpg
 To https://github.com/jett-1993/blog.git
    916129d..0f5a138  main -> main
 ===========
