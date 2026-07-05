@@ -156,7 +156,12 @@ def generate_seo_content(predictive_keyword, angle_strategy, language="Korean"):
     match = re.search(r'\{.*\}', result_text, re.DOTALL)
     if match:
         result_text = match.group(0)
-    return json.loads(result_text, strict=False)
+    try:
+        return json.loads(result_text, strict=False)
+    except Exception as e:
+        # Invalid escape sequence 방지
+        result_text = re.sub(r'\\([^"\\/bfnrtu])', r'\1', result_text)
+        return json.loads(result_text, strict=False)
 
 # ==========================================
 # 🖼️ 4단계: AI 무료 이미지 생성 및 다운로드
@@ -221,7 +226,11 @@ def expert_panel_review(article_data, language="Korean"):
     match = re.search(r'\{.*\}', result_text, re.DOTALL)
     if match:
         result_text = match.group(0)
-    return json.loads(result_text, strict=False)
+    try:
+        return json.loads(result_text, strict=False)
+    except Exception as e:
+        result_text = re.sub(r'\\([^"\\/bfnrtu])', r'\1', result_text)
+        return json.loads(result_text, strict=False)
 
 # ==========================================
 # 🚀 5단계: Jekyll 마크다운 파일 생성
