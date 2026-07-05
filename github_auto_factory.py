@@ -28,11 +28,11 @@ os.makedirs(IMAGES_DIR, exist_ok=True)
 # 📊 1단계: 실시간 트렌드 스크래핑 (구글 뉴스 RSS)
 # ==========================================
 def fetch_realtime_trends(language="Korean"):
-    print(f"📡 [1단계] {language} 구글 뉴스 실시간 핫이슈를 스크래핑 중입니다...")
+    print(f"📡 [1단계] {language} 구글 뉴스 'IT 및 보안' 핫이슈를 스크래핑 중입니다...")
     if language.lower() == "korean":
-        url = "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko"
+        url = "https://news.google.com/rss/search?q=IT+보안+해킹+사이버+정보보안&hl=ko&gl=KR&ceid=KR:ko"
     else:
-        url = "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en"
+        url = "https://news.google.com/rss/search?q=IT+Cyber+Security+Hacking&hl=en-US&gl=US&ceid=US:en"
         
     response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
     root = ET.fromstring(response.content)
@@ -88,9 +88,9 @@ def ai_editor_in_chief(headlines, language="Korean"):
     {headlines_text}
     
     [미션]
-    1. 위 뉴스들 중에서 블로그 방문자들이 가장 클릭하고 싶어할(관심도가 폭발할) 주제 1개를 고르세요.
-    2. 과거의 팩트나 결과를 단순히 보도하지 마세요. (예: OOO 경기 패배)
-    3. 대신, 그 사건이 가져올 **'미래 파장(예측), 다음 행보, 수혜자/피해자, 또는 숨겨진 의미'**로 각도를 180도 비틀어서 '매력적인 키워드와 앵글'을 제시하세요.
+    1. 위 뉴스들 중에서 블로그 방문자들이 가장 클릭하고 싶어할(관심도가 폭발할) **'IT 및 정보보안(사이버 해킹, 데이터 유출, 보안 기술 등)'** 관련 주제 1개를 고르세요.
+    2. 과거의 팩트나 결과를 단순히 보도하지 마세요.
+    3. 대신, 그 IT/보안 사건이 가져올 **'미래 파장(예측), 다음 행보, 수혜자/피해자, 기업의 보안 위협, 기술적 대안'**으로 각도를 180도 비틀어서 '매력적인 키워드와 앵글'을 제시하세요.
     
     결과를 반드시 {lang_instruction}로 아래 JSON 포맷에 정확히 맞춰서 다른 텍스트 없이 JSON만 출력하세요.
     {{
